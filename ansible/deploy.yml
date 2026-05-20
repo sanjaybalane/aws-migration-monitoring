@@ -1,0 +1,8 @@
+- hosts: localhost
+  connection: local
+
+  tasks:
+
+    - name: Start containers
+      shell: docker compose up -d
+
